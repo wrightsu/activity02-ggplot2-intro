@@ -133,7 +133,7 @@ ggplot(data = penguins, mapping = aes(x = flipper_length_mm, y = species, ___ = 
   ___()
 ```
 
-Comment on the strengths of the boxplot compared to the jitterplot and visa versa.
+Comment on the strengths of the boxplot compared to the jitterplot and vice versa.
 That is, what can you easily determine by looking at the boxplot?
 What about the jitterplot?
 
