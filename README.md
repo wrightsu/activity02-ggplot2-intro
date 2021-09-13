@@ -1,8 +1,8 @@
 Activity 2 - `{ggplot2}` intro
 ================
 
-It is assumed that you have read Sections 3.1–3.4 and Chapter 4 of R4DS
-and completed Preparation 3 prior to completing this activity.
+It is assumed that you have read Sections 3.1–3.4 of R4DS and completed
+Preparation 3 prior to completing this activity.
 
 In this activity, you will:
 
