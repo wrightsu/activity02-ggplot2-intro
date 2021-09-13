@@ -15,8 +15,8 @@ In this activity, you will:
 
 Remember to take these steps slowly, help each other out, and get a hold
 of your instructor when you have questions or issues. These directions
-have been slightly modified from Activity 1.2 to hopefully further
-reduce these steps in Activity 3.1 and beyond.
+have been slightly modified from Activity 1 to hopefully further reduce
+these steps in Activity 3.1 and beyond.
 
 **You may need your PAT that you created in Preparation 2**. If you
 misplaced this token, you will need to create a new one prior to
