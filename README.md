@@ -129,8 +129,8 @@ slide](https://media.giphy.com/media/4KALRmOb8uwbC/giphy.gif "stuck penguin beco
 
 **YOU DID IT!**
 
-![dance party with Jeff
-Goldblue](https://media.giphy.com/media/35HTaxVJWzp2QOShct/giphy.gif?cid=ecf05e47bcsh7c4noucp4tgbb6okq9sdn1zcd4tmn0qj21ym&rid=giphy.gif&ct=g)
+![Vote
+Pedro](https://media.giphy.com/media/JJGUejl0pLcRy/giphy.gif?cid=ecf05e474lnk2fbfl0rneodyg95rf1kij3zbsieh46p1cqyb&rid=giphy.gif&ct=g)
 
 Take 5 minutes to write a reflection on what you feel confident in and
 what you need to spend some time better understanding. What is one thing
