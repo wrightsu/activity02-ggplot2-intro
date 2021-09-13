@@ -15,8 +15,8 @@ In this activity, you will:
 
 Remember to take these steps slowly, help each other out, and get a hold
 of your instructor when you have questions or issues. These directions
-have been slightly modified from Activity 1.2 to hopefully further
-reduce these steps in Activity 3.1 and beyond.
+have been slightly modified from Activity 1 to hopefully further reduce
+these steps in Activity 3.1 and beyond.
 
 **You may need your PAT that you created in Preparation 2**. If you
 misplaced this token, you will need to create a new one prior to
@@ -109,8 +109,8 @@ instructor or another group.
 
 ## ☑️ Task 2: Complete the RMarkdown File
 
-The `activity0201-ggplot2-intro.Rmd` file contains the directions for
-this activity. For the rest of this class period, you will complete the
+The `activity02-ggplot2-intro.Rmd` file contains the directions for this
+activity. For the rest of this class period, you will complete the
 RMarkdown document with your neighbor(s). Your instructor will be
 circling and be available to help when needed.
 
