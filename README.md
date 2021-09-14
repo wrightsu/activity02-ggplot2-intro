@@ -50,7 +50,7 @@ beginning these steps.
         quotation marks):
 
     ``` bash
-    git config --global credential.helper 'cache -timeout=10000000'
+    git config --global credential.helper 'cache --timeout=10000000'
     ```
 5.  Create a new Project. You can do this by clicking on the
     <img src="README-img/new-project-icon.png" alt="new project" width = "20"/>
