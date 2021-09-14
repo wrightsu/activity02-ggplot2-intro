@@ -140,7 +140,7 @@ What about the jitterplot?
 **Response**:
 
 
-Knit, stage, commit (with a meaningful commit message),and push everything in your **Git** pane to your GitHub repo.
+Knit, then stage everything listed in your **Git** pane, commit (with a meaningful commit message), and push  to your GitHub repo.
 Then, go to GitHub and compare/contrast your `activity02-ggplot2-intro.Rmd` and `activity02-ggplot2-intro.md` files.
 Which is easier to read?
 Which looks more professional?
@@ -186,7 +186,7 @@ Comment on what you notice.
 **Response**:
 
 
-Knit, stage, commit (with a meaningful commit message),and push everything in your **Git** pane to your GitHub repo.
+Knit, then stage everything listed in your **Git** pane, commit (with a meaningful commit message), and push  to your GitHub repo.
 Go to GitHub and verify that your `activity02-ggplot2-intro.Rmd` file appears as you intended it to.
 
 ### Exploration
@@ -217,7 +217,8 @@ Using these three graphs to discuss which of these three categorical variables s
 **Response**:
 
 
-Knit, stage, commit (with a meaningful commit message),and push everything in your **Git** pane to your GitHub repo.
+
+Knit, then stage everything listed in your **Git** pane, commit (with a meaningful commit message), and push  to your GitHub repo.
 Go to GitHub and verify that your `activity02-ggplot2-intro.Rmd` file appears as you intended it to.
 
 ### Scatterplots
@@ -259,7 +260,8 @@ Discuss the decisions you made to help your plot be easier to read.
 **Response**:
 
 
-Knit, stage, commit (with a meaningful commit message),and push everything in your **Git** pane to your GitHub repo.
+
+Knit, then stage everything listed in your **Git** pane, commit (with a meaningful commit message), and push  to your GitHub repo.
 Go to GitHub and verify that your `activity02-ggplot2-intro.Rmd` file appears as you intended it to.
 
 You can now go back to the `README` file.
