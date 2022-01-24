@@ -5,7 +5,7 @@ output: github_document
 ---
 
 In the R code chunk below, I am setting a global option for this `.Rmd` report.
-For the time being you can, "pay not attention to the code between lines 10 and 12."
+For the time being you can, "pay no attention to the code between lines 10 and 12."
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(error = TRUE)
@@ -167,7 +167,7 @@ Why?
 
 
 This is getting us closer to one of my favorite plots - the raincloud plot.
-We are not quite ready to create this plot, but we will get there eventually!
+We are not quite ready to create this plot, but we will get there later this semester!
 
 ![raincloud plot](img/raincloud-plot.png)
 
@@ -188,6 +188,10 @@ Comment on what you notice.
 
 Knit, then stage everything listed in your **Git** pane, commit (with a meaningful commit message), and push  to your GitHub repo.
 Go to GitHub and verify that your `activity02-ggplot2-intro.Rmd` file appears as you intended it to.
+
+
+<img src="README-img/noun_pause.png" alt="pause" width = "20"/> <b>Planned Pause Point</b>: If you have any questions, contact your instructor or another group.
+At this point, you are welcome to do your own thing or continue in this document to try some more advanced tasks.
 
 ### Exploration
 

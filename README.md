@@ -14,13 +14,14 @@ In this activity, you will:
 ## ☑️ Task 1: The Workflow
 
 Remember to take these steps slowly, help each other out, and get a hold
-of your instructor when you have questions or issues. These directions
-have been slightly modified from Activity 1 to hopefully further reduce
-these steps in Activity 3.1 and beyond.
+of your instructor when you have questions or issues.
 
 **You may need your PAT that you created in Preparation 2**. If you
 misplaced this token, you will need to create a new one prior to
 beginning these steps.
+
+Remember to take these steps slowly, help each other out, and get a hold
+of your instructor when you have questions or issues.
 
 1.  In this GitHub repo, click on the ![fork](README-img/fork-icon.png)
     **Fork** icon near the upper-right-hand corner. You should be taken
@@ -40,21 +41,9 @@ beginning these steps.
 -   Verify that you are in an RStudio session (it doesn’t matter if it
     is a previous Project session or a “vanilla” RStudio session).
 
-4.  **ONE TIME ONLY** Note that we are using Git syntax to (hopefully)
-    store your GitHub credentials in RStudio for the entire semester
-    (for ten millions seconds or just over 16 weeks).
-    -   In the **Console** pane (left-hand pane), select the
-        **Terminal** tab. Once this loads, you should see a line of
-        information followed by a `$` and blinking cursor. Here, type
-        the following and press Enter/Return (note the use of single
-        quotation marks):
-
-    ``` bash
-    git config --global credential.helper 'cache --timeout=10000000'
-    ```
-5.  Create a new Project. You can do this by clicking on the
+4.  Create a new Project. You can do this by clicking on the
     <img src="README-img/new-project-icon.png" alt="new project" width = "20"/>
-    icon or through the menus (File &gt; New Project…).
+    icon or through the menus (File > New Project…).
 
 -   In the *New Project Wizard* pop-up, select **Version Control** on
     the *Create Project* screen, then select **Git** on the *Create
@@ -84,24 +73,6 @@ beginning these steps.
 
 6.  After a few seconds, your RStudio session will refresh and you
     should be in your newly created RStudio Project!
-7.  **ONE TIME ONLY** If you weren’t previously asked to provide your
-    GitHub username and PAT, we will attempt to force a prompt so that
-    RStudio will not ask for them anymore (wahoo!).
-
--   Open the `activity02-ggplot2-intro.Rmd` file. This should open on
-    the upper-left-hand portion of your RStudio session.
--   In your RMarkdown document, edit the top portion (the YAML) that
-    currently says `author: "Name"` so that it contains **your name**
-    and save your changes.
--   In the **Git** pane (upper-right-hand pane), select the
-    `activity02-ggplot2-intro.Rmd` file and click **Commit**.
--   In the pop-up window, provide a meaningful commit message (e.g.,
-    “Add author name”) and click the **Commit** button.
--   Click the
-    <img src="README-img/push-icon.png" alt="push" width = "20"/> icon.
-    You should be asked for your GitHub credentials - provide your
-    GitHub username and PAT. If you were not, RStudio has already stored
-    them!
 
 <img src="README-img/noun_pause.png" alt="pause" width = "20"/>
 <b>Planned Pause Point</b>: If you have any questions, contact your
