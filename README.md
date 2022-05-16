@@ -95,8 +95,7 @@ GitHub.
 However, do not continue in this README document until you and your
 neighbor(s) have completed your `.Rmd` files.
 
-![penguin
-slide](https://media.giphy.com/media/BvBEozfsXWWHe/giphy.gif "Penguin slips on ice.")
+![penguin slide](https://media.giphy.com/media/BvBEozfsXWWHe/giphy.gif "Penguin slips on ice.")
 
 ## ☑️ Tasks 4: Reflection
 
