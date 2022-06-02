@@ -160,9 +160,11 @@ ggplot(data = penguins, mapping = aes(x = flipper_length_mm, y = species, specie
 
 Now, comment on what you notice from these boxplots.
 
-**Response**: The flipper length is disparate enough that it’s easy to
-see the overlap/lack of overlap using this display type. I also
-appreciate the auto creation of a the colors and the color key.
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD **Response**: The flipper length is
+disparate enough that it’s easy to see the overlap/lack of overlap using
+this display type. I also appreciate the auto creation of a the colors
+and the color key. ======= **Response**: All three have one color.
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 05ce765e393540a651f95d8c4a9f26021465154f
 
 Another way to visualize distributions are with points. You may have
 heard of dotplots before (one-dimensional scatterplots). We can create
@@ -191,7 +193,8 @@ GitHub and compare/contrast your `activity02-ggplot2-intro.Rmd` and
 `activity02-ggplot2-intro.md` files. Which is easier to read? Which
 looks more professional?
 
-**Response**:
+**Response**: The md file. Very nicely formatted and with very pretty
+pictures.
 
 Now, wouldn’t it be nice if we could combine these two plots so that we
 get the benefits of both!?! That is, how can we overlay the jitterplot
@@ -201,10 +204,22 @@ my *hint*:
 -   Re-create the boxplot with color that you did above, then
 -   *Add* another geometry layer for the jitterplot.
 
+``` r
+ggplot(data = penguins, mapping = aes(x = flipper_length_mm, y = species, color = species)) +
+     geom_boxplot() +
+     geom_point()
+```
+
+    ## Warning: Removed 2 rows containing non-finite values (stat_boxplot).
+
+    ## Warning: Removed 2 rows containing missing values (geom_point).
+
+![](activity02-ggplot2-intro_files/figure-gfm/box-jitter-combined-1.png)<!-- -->
+
 Play around with doing the jitterplot laid over the boxplot and the
 boxplot laid over the jitterplot. Which do you prefer? Why?
 
-**Response**:
+**Response**: I like the jitter over the box. I don’t like hidden data.
 
 This is getting us closer to one of my favorite plots - the raincloud
 plot. We are not quite ready to create this plot, but we will get there
@@ -218,12 +233,25 @@ default white coloring. In the code chunk below, explore different
 methods to try to create this plot. A hint, all `geom_*` have a
 `mapping` argument.
 
+``` r
+ggplot(data = penguins) +
+    geom_boxplot(mapping = aes(x = flipper_length_mm, y = species)) +
+    geom_point(mapping = aes(x = flipper_length_mm, y = species, color = species))
+```
+
+    ## Warning: Removed 2 rows containing non-finite values (stat_boxplot).
+
+    ## Warning: Removed 2 rows containing missing values (geom_point).
+
+![](activity02-ggplot2-intro_files/figure-gfm/jitter-colored-only-1.png)<!-- -->
+
 In the above code chunk, continue to play around with having the
 aesthetics mapped in the different layers. For example, how does having
 all of them mapped in the `ggplot` call compared to having these instead
 mapped in the `geom_boxplot` layer? Comment on what you notice.
 
-**Response**:
+**Response**: One you get the structure down, it doesn’t seem that hard
+to maniupate aesthetics.
 
 Knit, then stage everything listed in your **Git** pane, commit (with a
 meaningful commit message), and push to your GitHub repo. Go to GitHub
