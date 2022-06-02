@@ -114,8 +114,8 @@ For this boxplot, we want to double-encode the variable `species` to not only th
 In the code chunk below, add the missing code (i.e., replacing the `___`) to have our comparative boxplots also include some coloring.
 
 ```{r boxplot-colors}
-ggplot(data = penguins, mapping = aes(x = flipper_length_mm, y = species, species = color)) +
-  geom_boxplot()
+ggplot(data = penguins, mapping = aes(x = flipper_length_mm, y = species, color = species)) +
+    geom_boxplot()
 ```
 
 Now, comment on what you notice from these boxplots.
@@ -213,17 +213,20 @@ Create graphs to explore the relationship between `bill_length_mm` and each of `
 Using these three graphs to discuss which of these three categorical variables seems to be contributing more to these two peaks and explain your reasoning.
 
 ```{r bill_length_by_species}
-
+ggplot(data = penguins, mapping = aes(x = bill_length_mm, y = species)) +
+    geom_point()
 ```
 
 
 ```{r bill_length_by_sex}
-
+ggplot(data = penguins, mapping = aes(x = bill_length_mm, y = sex)) +
+    geom_point()
 ```
 
 
 ```{r bill_length_by_island}
-
+ggplot(data = penguins, mapping = aes(x = bill_length_mm, y = island)) +
+    geom_point()
 ```
 
 **Response**:

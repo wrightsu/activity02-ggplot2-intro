@@ -150,11 +150,11 @@ code (i.e., replacing the `___`) to have our comparative boxplots also
 include some coloring.
 
 ``` r
-ggplot(data = penguins, mapping = aes(x = flipper_length_mm, y = species, species = color)) +
-  geom_boxplot()
+ggplot(data = penguins, mapping = aes(x = flipper_length_mm, y = species, color = species)) +
+    geom_boxplot()
 ```
 
-    ## Error in FUN(X[[i]], ...): object 'color' not found
+    ## Warning: Removed 2 rows containing non-finite values (stat_boxplot).
 
 ![](activity02-ggplot2-intro_files/figure-gfm/boxplot-colors-1.png)<!-- -->
 
@@ -251,7 +251,7 @@ all of them mapped in the `ggplot` call compared to having these instead
 mapped in the `geom_boxplot` layer? Comment on what you notice.
 
 **Response**: One you get the structure down, it doesn’t seem that hard
-to maniupate aesthetics.
+to manipulate aesthetics.
 
 Knit, then stage everything listed in your **Git** pane, commit (with a
 meaningful commit message), and push to your GitHub repo. Go to GitHub
@@ -278,6 +278,33 @@ each of `species`, `sex`, and `island` (you should have three total
 graphs). Using these three graphs to discuss which of these three
 categorical variables seems to be contributing more to these two peaks
 and explain your reasoning.
+
+``` r
+ggplot(data = penguins, mapping = aes(x = bill_length_mm, y = species)) +
+    geom_point()
+```
+
+    ## Warning: Removed 2 rows containing missing values (geom_point).
+
+![](activity02-ggplot2-intro_files/figure-gfm/bill_length_by_species-1.png)<!-- -->
+
+``` r
+ggplot(data = penguins, mapping = aes(x = bill_length_mm, y = sex)) +
+    geom_point()
+```
+
+    ## Warning: Removed 2 rows containing missing values (geom_point).
+
+![](activity02-ggplot2-intro_files/figure-gfm/bill_length_by_sex-1.png)<!-- -->
+
+``` r
+ggplot(data = penguins, mapping = aes(x = bill_length_mm, y = island)) +
+    geom_point()
+```
+
+    ## Warning: Removed 2 rows containing missing values (geom_point).
+
+![](activity02-ggplot2-intro_files/figure-gfm/bill_length_by_island-1.png)<!-- -->
 
 **Response**:
 
