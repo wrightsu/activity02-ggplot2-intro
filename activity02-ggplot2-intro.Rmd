@@ -120,7 +120,11 @@ ggplot(data = penguins, mapping = aes(x = flipper_length_mm, y = species, specie
 
 Now, comment on what you notice from these boxplots.
 
+<<<<<<< HEAD
 **Response**: The flipper length is disparate enough that it's easy to see the overlap/lack of overlap using this display type. I also appreciate the auto creation of a the colors and the color key.
+=======
+**Response**: All three have one color. 
+>>>>>>> 05ce765e393540a651f95d8c4a9f26021465154f
 
 
 Another way to visualize distributions are with points.
