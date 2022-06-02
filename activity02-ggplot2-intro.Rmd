@@ -191,7 +191,7 @@ In the above code chunk, continue to play around with having the aesthetics mapp
 For example, how does having all of them mapped in the `ggplot` call compared to having these instead mapped in the `geom_boxplot` layer?
 Comment on what you notice.
 
-**Response**: One you get the structure down, it doesn't seem that hard to maniupate aesthetics.
+**Response**: One you get the structure down, it doesn't seem that hard to manipulate aesthetics.
 
 
 Knit, then stage everything listed in your **Git** pane, commit (with a meaningful commit message), and push  to your GitHub repo.
