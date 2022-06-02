@@ -1,6 +1,6 @@
 ---
 title: "Activity 2"
-author: "Name"
+author: "Summer"
 output: github_document
 ---
 
@@ -21,14 +21,14 @@ The `penguins` data set contains the following variables:
 
 All artwork by [@allison_horst](https://twitter.com/allison_horst).
 
-- `species`:
-- `island`:
-- `bill_length_mm`:
-- `bill_depth_mm`:
-- `flipper_length_mm`:
-- `body_mass_g`:
-- `sex`:
-- `year`:
+- `species`: a factor denoting penguin species (Adélie, Chinstrap and Gentoo)
+- `island`: a factor denoting island in Palmer Archipelago, Antarctica (Biscoe, Dream or Torgersen)
+- `bill_length_mm`: a number denoting bill length (millimeters)
+- `bill_depth_mm`: a number denoting bill depth (millimeters)
+- `flipper_length_mm`: an integer denoting flipper length (millimeters)
+- `body_mass_g`: an integer denoting body mass (grams)
+- `sex`: a factor denoting penguin sex (female, male)
+- `year`: an integer denoting the study year (2007, 2008, or 2009)
 
 We will need to install `{palmerpenguins}` in your RStudio session to be able to use this.
 There are a couple of ways to do this, but my preferred method is to type the following in your **Console** pane (this should be the pane below this open `.Rmd` file).
@@ -114,13 +114,13 @@ For this boxplot, we want to double-encode the variable `species` to not only th
 In the code chunk below, add the missing code (i.e., replacing the `___`) to have our comparative boxplots also include some coloring.
 
 ```{r boxplot-colors}
-ggplot(data = penguins, mapping = aes(x = flipper_length_mm, y = species, ___ = ___)) +
+ggplot(data = penguins, mapping = aes(x = flipper_length_mm, y = species, species = color)) +
   geom_boxplot()
 ```
 
 Now, comment on what you notice from these boxplots.
 
-**Response**:
+**Response**: The flipper length is disparate enough that it's easy to see the overlap/lack of overlap using this display type. I also appreciate the auto creation of a the colors and the color key.
 
 
 Another way to visualize distributions are with points.
@@ -129,15 +129,15 @@ We can create something similar with jitterplots using `geom_jitter`.
 In the code chunk below, complete it so that it produces a jitterplot.
 
 ```{r jitterplot}
-ggplot(data = penguins, mapping = aes(x = flipper_length_mm, y = species, ___ = ___)) +
-  ___()
+ggplot(data = penguins, mapping = aes(x = flipper_length_mm, y = species, color = species)) +
+  geom_point()
 ```
 
 Comment on the strengths of the boxplot compared to the jitterplot and vice versa.
 That is, what can you easily determine by looking at the boxplot?
 What about the jitterplot?
 
-**Response**:
+**Response**: Boxplots make it easier to see outliers. Jitterplots make it easier to see overlapping data.
 
 
 Knit, then stage everything listed in your **Git** pane, commit (with a meaningful commit message), and push  to your GitHub repo.
