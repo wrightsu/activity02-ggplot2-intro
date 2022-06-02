@@ -229,7 +229,7 @@ ggplot(data = penguins, mapping = aes(x = bill_length_mm, y = island)) +
     geom_point()
 ```
 
-**Response**:
+**Response**: Species and island seem to be the biggest contributor. Sex has the most overlap.
 
 
 
@@ -244,35 +244,38 @@ Here we continue exploring scatterplots using `{ggplot2}`.
 In the code chunk below, create a scatterplot for the relationship between `flipper_length_mm` and `body_mass_g`.
 
 ```{r flipper_vs_mass}
-
+ggplot(data = penguins, mapping = aes(x = flipper_length_mm, y = body_mass_g)) +
+  geom_point()
 ```
 
 Describe any patterns that you notice.
 
-**Response**:
+**Response**: As body mass goes up, so does flipper length.
 
 
 Recreate your scatterplot in the code chunk below; however,  *map* `species` to the `color` and `shape` aesthetics.
 
 ```{r flipper_vs_mass_with_species}
-
+ggplot(data = penguins, mapping = aes(x = flipper_length_mm, y = body_mass_g, color = species, shape = species)) +
+  geom_point()
 ```
 
 Describe any patterns that you notice.
 
-**Response**:
+**Response**: Gentoos have large body mass and bigger flipperrs. Adelie and chinstraps are similarly sized, though adelies hit the smaller end of the range.
 
 
 The previous plot looked great except even in this rather small dataset (n = 344), there might are a number of points overlapping.
 In the R code chunk below, *set* the values (instead of mapping a variable to an aesthetic) of `size` (using some value larger than zero) and `alpha` (using some value between 0 and 1) to make your previous plot more effective.
 
 ```{r flipper_vs_mass_with_size_alpha}
-
+ggplot(data = penguins, mapping = aes(x = flipper_length_mm, y = body_mass_g)) +
+  geom_point(mapping = aes(alpha = flipper_length_mm, size = body_mass_g ))
 ```
 
 Discuss the decisions you made to help your plot be easier to read.
 
-**Response**:
+**Response**: Gives a visual respresentation of size of animal and allows data points to more easily been seen.
 
 
 
